@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="spaceplus.css" integrity="text/css"> <!--le lien css-->
+    <!--pour les icone des social media -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <!--Pour utiliser bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Tanger informatique</title>
+    <!--pour utiliser jquery faut avant tout faut mettre la src jQuery puis Popper.js et apres Bootstrap JS-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.css">
+  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.js"></script>
+
+  </head>
+  <body id="top">
+    <!--Navbar-->
+    <nav class="navbar sticky-top navbar-expand-lg bg-dark">
+        <a class="navbar-brand text-success" href="#">
+        <img src="logo.png" width="145" height="50" class="d-inline-block align-top" alt="tanger-informatique">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+            <span class="navbar-toggler-icon bg-light"></span>
+        </button>
+            <div id="navbarContent" class="collapse navbar-collapse">    
+        <ul class="navbar-nav mx-auto ">
+            <li class="nav-item active">
+                <a class="nav-link text-light" href="space.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Service
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Assistance Informatique</a>
+                  <a class="dropdown-item" href="#">Maintenance informatique</a>
+                  <a class="dropdown-item" href="#">Hébergement de serveur</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Plus</a>
+                </div>
+              </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Membre
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">CIO</a>
+                  <a class="dropdown-item" href="#">RH</a>
+                  <a class="dropdown-item" href="#">Ingénieur</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">d'autre membres</a>
+                </div>
+              </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Client 
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Management des avis clients</a>
+                  <a class="dropdown-item" href="#">Social selling</a>
+                  <a class="dropdown-item" href="#">Data</a>
+                  <a class="dropdown-item" href="#">Customer centric</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Plus</a>
+                </div>
+              </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Produit
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="Articel1.html">Assistance informatique</a>
+                  <a class="dropdown-item" href="Articel2.html">Hébergement du serveur</a>
+                  <a class="dropdown-item" href="Articel3.html">Dev d'application</a>
+                  <a class="dropdown-item" href="#">Github</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Plus...</a>
+                </div>
+              </li>
+        </div>
+        </div>
+    </nav>
+  </div>
+    <!--/navbar-->
+    <!--Slider-->
+    <div class="jumbotron shadow rounded">
+      <div class="container">      
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card">
+                      <div class="card-horizontal">
+                          <div class="img-square-wrapper">
+                              <img class="img-thumbnail bg-dark" src="i1.jpg" style="width:500px ;height:320px ;" alt="Card image cap">
+                          </div>
+                          <div class="card-body bg1">
+                              <h4 class="card-title">Assitance informatique</h4>
+                              <p class="card-text">vous avez besoin d'assitance informatique ou vous avez des problaime et vous voulez notre aide .</p>
+                              <a href="Articel1.html" class="btn btn-success stretched-link">Savoir plus</a>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                      <div class="card-horizontal">
+                          <div class="img-square-wrapper">
+                              <img class="img-thumbnail bg-dark" src="i1.jpeg" style="width:500px ;height:320px ;" alt="Card image cap">
+                          </div>
+                          <div class="card-body bg2">
+                              <h4 class="card-title">Hébergement du serveur</h4>
+                              <p class="card-text">Location de serveurs dédiés spécifiques pour des besoins de haute performance. Optez pour un serveur dédié sur mesure de dernière génération ! N°1 sur serveur dédié.</p>
+                              <a href="Articel2.html" class="btn btn-success stretched-link">Savoir plus</a>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                      <div class="card-horizontal">
+                          <div class="img-square-wrapper">
+                              <img class="img-thumbnail bg-dark" src="i3.jpg" style="width:500px ;height:320px;" alt="Card image cap">
+                          </div>
+                          <div class="card-body bg3">
+                              <h4 class="card-title">Développement d'application</h4>
+                              <p class="card-text">Si vous avez ainsi, un grand projet de réalisation d'une appli web, l'entreprise développement web nous somme a votre disposition</p>
+                              <a href="Articel3.html" class="btn btn-success stretched-link">Savoir plus</a>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+           </div>
+    </div>
+    <!--/slider-->
+    <!--Section 2 et 3-->
+      <div class="row">
+        <div class="col-8">
+            <div class="card customclass1 shadow rounded">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase">Gestion des membres de l'agence tanger-informatique</h5>
+                    <hr class="">
+                    <p>
+                      <button class="btn btn-primary ajouter" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Ajouter un membre
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                      <div class="card card-body">
+                        <!--form-->
+                        <form class="was-validated" id="form">
+                          <div class="form-row">
+                           <div class="col-md-4 mb-3">
+                             <label for="validationServer01">Nom</label>
+                             <input type="text" name="nom" class="form-control is-valid" id="validationServer01" placeholder="Nom" required>
+                             <div class="invalid-feedback">
+                               Svp d'enter le nom du membres de l'agence
+                             </div>
+                           </div>
+                          <div class="col-md-4 mb-3">
+                            <label for="validationTextarea">Prénom</label>
+                            <input type="text" name="prenom" class="form-control is-valid" id="validationServer02" placeholder="Prénom" required>
+                            <div class="invalid-feedback">
+                              Svp d'enter le prénom du membres de l'agence
+                            </div>
+                          </div>
+                          </div>
+                          <div class="form-row">
+                          <div class="col-md-4 mb-3">
+                            <label for="validationTextarea">Salaires en Dh</label>
+                            <input type="number" name="salaires" class="form-control is-valid" id="validationServer01" placeholder="Salaires" required>
+                            <div class="invalid-feedback">
+                              Svp d'enter le salaires du membres de l'agence
+                            </div>
+                          </div>
+                          <div class="col-md-4 mb-3">
+                            <label for="validationTextarea">Spécialité</label>
+                            <input type="text" name="specialite" class="form-control is-valid" id="validationServer01" placeholder="Spécialité"required>
+                            <div class="invalid-feedback">
+                              Svp d'enter la spécialité du membres de l'agence
+                            </div>
+                          </div>
+                          </div>
+                           <div class="form-row">
+                            <div class="form-group">
+                              <div class="form-check">
+                                <input class="form-check-input is-invalid check" type="checkbox" name="check" value="" id="invalidCheck3" required>
+                                <label class="form-check-label" for="invalidCheck3">
+                                  vous-etes sur que les donner sont correct?
+                                </label>
+                              </div>
+                            </div>
+                            </div>
+                            <button class="btn btn-success save-btn submit" id="del_event" name="Delete event" data-toggle="collapse" data-target="#collapseExample" type="submit">Sauvgarder</button>
+                          </form>
+                          <!--/form-->
+                          </div>
+                      </div>
+                </div>
+                <div class="card-body">
+                    <table id="myTable" class="table table-bordered data-table ">
+                      <thead>
+                        <tr>
+                          <th scope="col">Nom</th>
+                          <th scope="col">Prenom</th>
+                          <th scope="col">Salaires</th>
+                          <th scope="col">Spécialité</th>
+                          <th scope="col">Ajouter ou Suprimer</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>undefined</td>
+                          <td>undefined</td>
+                          <td>undefined</td>
+                          <td>undefined</td>
+                          <td><button class='btn btn-info btn-xs btn-edit'>Modifier</button><button class='btn btn-danger btn-xs btn-delete'>Suprimer</button></td></tr>
+                        </tr>
+                        <tr>
+                          <td>undefined</td>
+                          <td>undefined</td>
+                          <td>undefined</td>
+                          <td>undefined</td>
+                          <td><button class='btn btn-info btn-xs btn-edit'>Modifier</button><button class='btn btn-danger btn-xs btn-delete'>Suprimer</button></td></tr>
+                        </tr>
+                        <tr>
+                          <td>undefined</td>
+                          <td>undefined</td>
+                          <td>undefined</td>
+                          <td>undefined</td>
+                          <td><button class='btn btn-info btn-xs btn-edit'>Modifier</button><button class='btn btn-danger btn-xs btn-delete'>Suprimer</button></td></tr>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+          <div class="card customclass2 shadow rounded">
+              <div class="card-body bg-dark titelbox">
+                <p class="text-white">Dernier actualité</p>
+              </div>
+              <div class="card">
+                <div class="card-horizontal">
+                    <div class="img-square-wrapper">
+                        <img id="myImg1" class="img-thumbnail" src="i1.jpg" alt="Assistance informatique" style="width: 120px;height: 110px;">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="Articel1.html">Assitance IT</a></h4>
+                        <p class="card-text">Avez vous des problaime...</p>
+                    </div>
+                </div>
+                <div class="card-horizontal">
+                  <div class="img-square-wrapper">
+                      <img id="myImg2" class="img-thumbnail" src="i2.jpg" alt="Notre serveur" style="width: 120px;height: 110px;">
+                  </div>
+                  <div class="card-body">
+                      <h4 class="card-title"><a href="Articel2.html">Nos Serveur</a></h4>
+                      <p class="card-text">Vous voulez un serveur ?</p>
+                  </div>
+              </div>
+              <div class="card-horizontal">
+                <div class="img-square-wrapper">
+                    
+                    <img id="myImg3" class="img-thumbnail" src="i3.jpg" alt="Dev application" style="width: 120px;height: 110px;">
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title"><a href="Articel3.html">Dev application</a></h4>
+                    <p class="card-text">voulez vous une application...</p>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+      <!-- Footer -->
+        <section id="footer">
+          <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <h5>Quick links</h5>
+                <ul class="list-unstyled quick-links">
+                  <li><a href=""><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href=""><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href=""><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href=""><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href=""><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <h5>Quick links</h5>
+                <ul class="list-unstyled quick-links">
+                  <li><a href=""><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href=""><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href=""><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href=""><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href=""><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <h5>Quick links</h5>
+                <ul class="list-unstyled quick-links">
+                  <li><a href=""><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href=""><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href=""><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href=""><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href="" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                <ul class="list-unstyled list-inline social text-center">
+                  <li class="list-inline-item"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.intagram.com/"><i class="fab fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.gmail.com/" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+              </div>
+              <hr>
+            </div>	
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                <p><u><a href="">National Informatique Corporation</a></u>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                <p class="h6">© All right Reversed.<a class="text-green ml-2" href="space.html" target="_blank">tanger-informatique</a></p>
+              </div>
+              <hr>
+            </div>
+          </div>
+        </section>
+       <!-- ./Footer -->
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+   
+    <script type="text/javascript">
+          $(document).ready( function () {
+              $('#myTable').DataTable();
+        } );
+
+    $(document).ready(function(){
+      //pour afficher le form
+      $(".ajouter").click(function(){
+       $("#form").show();
+       $(".table").hide();
+       $(".ajouter").hide();
+      });
+      //pour cacher le form
+      $(".submit").click(function(){
+       $("#form").hide();
+       $(".ajouter").show();
+       $(".table").show();
+      });
+
+    // la premier fonction qui vas collecter les donner 
+      $("form").submit(function(e){
+          e.preventDefault();
+          var nom = $("input[name='nom']").val();
+          var prenom = $("input[name='prenom']").val();
+          var salaires = $("input[name='salaires']").val();
+          var specialite = $("input[name='specialite']").val();
+       
+          $(".data-table tbody").append("<tr data-nom ='"+nom+"' data-prenom ='"+prenom+"' data-salaires ='"+salaires+"'data-specialite ='"+specialite+"'><td>"+nom+"</td><td>"+prenom+"</td><td>"+salaires+"</td><td>"+specialite+"</td><td><button class='btn btn-info btn-xs btn-edit'>Modifier</button><button class='btn btn-danger btn-xs btn-delete'>Suprimer</button></td></tr>");
+          $("input[name='nom']").val('');
+          $("input[name='prenom']").val('');
+          $("input[name='salaires']").val('');
+          $("input[name='specialite']").val('');
+      });
+      // la 2éme fonction qui vas permetre de suprimer une line
+      $("body").on("click", ".btn-delete", function(){
+          $(this).parents("tr").remove();
+      });
+      // la 3éme fonction qui vas nous permetre de changer les donner du tableau
+      $("body").on("click", ".btn-edit", function(){
+          var nom = $(this).parents("tr").attr('data-nom');
+          var prenom = $(this).parents("tr").attr('data-prenom');
+          var salaires = $(this).parents("tr").attr('data-salaires');
+          var specialite = $(this).parents("tr").attr('data-specialite');
+      
+          $(this).parents("tr").find("td:eq(0)").html('<input size="10" class="form-control" name="edit_nom" value="'+nom+'">');
+          $(this).parents("tr").find("td:eq(1)").html('<input size="10" class="form-control" name="edit_prenom" value="'+prenom+'">');
+          $(this).parents("tr").find("td:eq(2)").html('<input size="10" class="form-control" name="edit_salaires" value="'+salaires+'">');
+          $(this).parents("tr").find("td:eq(3)").html('<input size="10" class="form-control" name="edit_specialite" value="'+specialite+'">');
+          $(this).parents("tr").find("td:eq(4)").prepend("<button class='btn btn-info btn-xs btn-update'>Sauvgarder</button><button class='btn btn-warning btn-xs btn-cancel'>Annuler</button>")
+          $(this).hide();
+      });
+      // la 4éme fonction cancel pour annulées les changement dans fonction edit
+      $("body").on("click", ".btn-cancel", function(){
+          var nom = $(this).parents("tr").attr('data-nom');
+          var prenom = $(this).parents("tr").attr('data-prenom');
+          var salaires = $(this).parents("tr").attr('data-salaires');
+          var specialite = $(this).parents("tr").attr('data-specialite');
+      
+          $(this).parents("tr").find("td:eq(0)").text(nom);
+          $(this).parents("tr").find("td:eq(1)").text(prenom);
+          $(this).parents("tr").find("td:eq(2)").text(salaires);
+          $(this).parents("tr").find("td:eq(3)").text(specialite);
+     
+          $(this).parents("tr").find(".btn-edit").show();
+          $(this).parents("tr").find(".btn-update").remove();
+          $(this).parents("tr").find(".btn-cancel").remove();
+      });
+      // la fonciton update vas sauvgarder les donner apres le clik sur gedit
+      $("body").on("click", ".btn-update", function(){
+          var nom = $(this).parents("tr").find("input[name='edit_nom']").val();
+          var prenom = $(this).parents("tr").find("input[name='edit_prenom']").val();
+          var salaires = $(this).parents("tr").find("input[name='edit_salaires']").val();
+          var specialite = $(this).parents("tr").find("input[name='edit_specialite']").val();
+
+          $(this).parents("tr").find("td:eq(0)").text(nom);
+          $(this).parents("tr").find("td:eq(1)").text(prenom);
+          $(this).parents("tr").find("td:eq(2)").text(salaires);
+          $(this).parents("tr").find("td:eq(3)").text(specialite);
+           
+          $(this).parents("tr").attr('data-nom', nom);
+          $(this).parents("tr").attr('data-prenom', prenom);
+          $(this).parents("tr").attr('data-salaires', salaires);
+          $(this).parents("tr").attr('data-specialite',specialite);
+      
+          $(this).parents("tr").find(".btn-edit").show();
+          $(this).parents("tr").find(".btn-cancel").remove();
+          $(this).parents("tr").find(".btn-update").remove();
+      });
+    }); 
+      // Pour récuperer l'id du model
+      var modal = document.getElementById("myModal");
+
+      //Récuperer l'imagine inseret dans la modele par Id pour notre cas on a  3 image ducoup  3  different id pour chacune 
+      var img = document.getElementById("myImg1");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.ondblclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+      }
+      var img = document.getElementById("myImg2");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.ondblclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+      }
+      var img = document.getElementById("myImg3");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.ondblclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    
+      }
+
+      // récupere le span pour fermer le modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // quand l'utilisateur clicks sur <span> (x), ferme le modal
+      span.onclick = function() { 
+      modal.style.display = "none";
+      }
+      var chkbox = $(".check");
+       button = $("#del_event");
+       button.attr("disabled","disabled");
+       chkbox.change(function(){
+            if(this.checked){
+                button.removeAttr("disabled");
+            }else{
+                button.attr("disabled","disabled");
+            }
+        });
+
+    </script> 
+    <script>
+
+    </script>
+  </body>
+</html>
